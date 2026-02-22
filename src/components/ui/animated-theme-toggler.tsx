@@ -60,17 +60,19 @@ export const AnimatedThemeToggler = ({ className }: props) => {
         duration: 700,
         easing: "ease-in-out",
         pseudoElement: "::view-transition-new(root)",
-      }
+      },
     );
   };
 
   return (
-    <button
+    <Button
       type="button"
       ref={buttonRef}
       onClick={changeTheme}
+      variant="ghost"
+      size={"sm"}
       className={
-        "flex gap-1 justify-center items-center w-16 h-12 px-4 hover:bg-[#252525] dark:hover:bg-[#eaeaea] text-[#252525] hover:text-[#eaeaea] dark:text-[#eaeaea] dark:hover:text-[#252525] rounded-br-xs cursor-pointer"
+        "rounded gap-1 sm:gap-2 px-2 sm:px-3 hover:bg-[#252525] hover:text-[#eaeaea] hover:dark:bg-[#eaeaea] hover:dark:text-[#252525] cursor-pointer"
       }
     >
       <svg
@@ -107,6 +109,6 @@ export const AnimatedThemeToggler = ({ className }: props) => {
           ? "Toggle light and dark modes"
           : "Alternar modos de luz e escuro"}
       </span>
-    </button>
+    </Button>
   );
 };

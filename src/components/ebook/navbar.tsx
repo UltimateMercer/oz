@@ -50,6 +50,8 @@ import {
 } from "lucide-react";
 import HelpGuide from "./help-guide";
 import { useTheme } from "next-themes";
+import { Logo } from "../logo";
+import { AnimatedThemeToggler } from "../ui/animated-theme-toggler";
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
@@ -118,6 +120,7 @@ const Navbar = () => {
             LADO ESQUERDO - Navegação Principal
             ================================================ */}
         <div className="flex items-center gap-0.5 sm:gap-1">
+          <Logo width={48} height={48} className="mr-4" />
           {/* Botão Capa */}
           <Tooltip>
             <TooltipTrigger asChild>
@@ -256,7 +259,8 @@ const Navbar = () => {
           {/* Toggle de Tema */}
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button
+              <AnimatedThemeToggler />
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 onClick={toggleTheme}
@@ -267,7 +271,7 @@ const Navbar = () => {
                 ) : (
                   <Sun className="w-4 h-4" />
                 )}
-              </Button>
+              </Button> */}
             </TooltipTrigger>
             <TooltipContent>
               <p>{t.ui.theme}</p>

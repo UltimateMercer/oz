@@ -4,6 +4,12 @@ export const chapter1EN = {
   subtitle: "The Cyclone",
   content: [
     {
+      type: "image",
+      src: "/book/ciclone.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
+    {
       type: "text",
       value: `Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar—except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.`,
     },
@@ -80,6 +86,12 @@ export const chapter1PT = {
   title: "Capítulo I",
   subtitle: "O Ciclone",
   content: [
+    {
+      type: "image",
+      src: "/book/ciclone.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
     {
       type: "text",
       value: `Dorothy vivia no meio das grandes pradarias do Kansas, com o Tio Henry, que era fazendeiro, e a Tia Em, a esposa do fazendeiro. A casa era pequena, pois a madeira para construí-la precisava ser transportada de carroça por muitas milhas. Havia quatro paredes, um chão e um telhado, formando um único cômodo; e esse cômodo continha um fogão enferrujado, um armário para a louça, uma mesa, três ou quatro cadeiras e as camas. O Tio Henry e a Tia Em tinham uma cama grande em um canto, e Dorothy uma caminha em outro canto. Não havia sótão algum, nem porão — exceto um pequeno buraco cavado no chão, chamado de abrigo contra ciclones, onde a família podia se refugiar caso um daqueles grandes redemoinhos surgisse, poderoso o bastante para destruir qualquer construção em seu caminho. O acesso era feito por uma alçapão no meio do chão, de onde uma escada descia até o pequeno e escuro buraco.`,

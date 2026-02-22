@@ -119,7 +119,7 @@ const pt: Translation = {
     fontLarge: "Grande",
     fontXLarge: "Extra Grande",
     fontSerif: "Serifada",
-    fontSans: "Inter",
+    fontSans: "Sans",
   },
 
   // ---- Informações do Livro ----

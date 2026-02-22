@@ -161,7 +161,7 @@ const fontSizeClasses: Record<FontSize, string> = {
 // Mapeamento de famílias de fonte
 const fontFamilyClasses: Record<FontFamily, string> = {
   serif: "font-serif",
-  sans: "font-sans",
+  sans: "font-lexend",
 };
 
 const Chapter = ({ chapterIndex }: ChapterProps) => {
@@ -255,7 +255,7 @@ const Chapter = ({ chapterIndex }: ChapterProps) => {
                 <img
                   src={item.src}
                   alt={item.alt}
-                  className="w-full rounded-md shadow-md"
+                  className="w-full grayscale-90 fade-edges"
                 />
                 {item.caption && (
                   <figcaption className="mt-2 text-center text-sm text-muted-foreground italic">

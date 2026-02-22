@@ -4,6 +4,12 @@ export const chapter2EN = {
   subtitle: "The Council with the Munchkins",
   content: [
     {
+      type: "image",
+      src: "/book/toto-oz.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
+    {
       type: "text",
       value: `She was awakened by a shock, so sudden and severe that if Dorothy had not been lying on the soft bed she might have been hurt. As it was, the jar made her catch her breath and wonder what had happened; and Toto put his cold little nose into her face and whined dismally. Dorothy sat up and noticed that the house was not moving; nor was it dark, for the bright sunshine came in at the window, flooding the little room. She sprang from her bed and with Toto at her heels ran and opened the door.`,
     },
@@ -115,6 +121,12 @@ export const chapter2PT = {
   title: "Capítulo II",
   subtitle: "O Conselho com os Munchkins",
   content: [
+    {
+      type: "image",
+      src: "/book/toto-oz.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
     {
       type: "text",
       value: `Ela foi acordada por um choque tão repentino e forte que, se Dorothy não estivesse deitada na cama macia, poderia ter se machucado. Mesmo assim, o impacto a fez prender a respiração e se perguntar o que havia acontecido; e Toto enfiou seu frio focinzinho em seu rosto e ganhou lastimavelmente. Dorothy se sentou e percebeu que a casa não estava mais se movendo; tampouco estava escuro, pois a luz do sol entrava pela janela, inundando o pequeno cômodo. Ela saltou da cama e, com Toto atrás de seus calcanhares, correu e abriu a porta.`,

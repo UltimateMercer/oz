@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, DM_Serif_Display, Crimson_Pro } from "next/font/google";
+import { Inter, DM_Serif_Display, Crimson_Pro, Lexend } from "next/font/google";
 import "./globals.css";
 
 import { ThemeProvider } from "@/components/theme-provider";
@@ -7,6 +7,11 @@ import { LayoutBase } from "@/components/layout-base";
 import { Html } from "@/components/html";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+const lexend = Lexend({
+  variable: "--font-lexend",
+  // weight: ["300"],
+  subsets: ["latin"],
+});
 
 const dmSerifDisplay = DM_Serif_Display({
   variable: "--font-dm-serif-display",
@@ -33,7 +38,7 @@ export default function RootLayout({
   return (
     <Html>
       <body
-        className={`${inter.variable} ${dmSerifDisplay.variable} ${crimsonPro.variable}  bg-[#fbf0d9] dark:bg-[#252525] antialiased`}
+        className={`${inter.variable} ${lexend.variable} ${dmSerifDisplay.variable} ${crimsonPro.variable}  bg-[#fbf0d9] dark:bg-[#252525] antialiased`}
       >
         <ThemeProvider
           attribute="class"

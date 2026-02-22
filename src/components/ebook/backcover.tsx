@@ -10,10 +10,11 @@
 import { useEbookStore } from "../../store/useEbookStore";
 import { getTranslation } from "../../lib/translations";
 import { bookConfig } from "../../lib/book-config";
-import { ImageIcon } from "lucide-react";
+import { Book, ImageIcon } from "lucide-react";
 import { BookCover } from "../book-cover";
+import { BookBackcover } from "../book-backcover";
 
-const Cover = () => {
+const Backcover = () => {
   const language = useEbookStore((state) => state.language);
   const t = getTranslation(language);
   const { typography } = bookConfig;
@@ -26,10 +27,9 @@ const Cover = () => {
         px-4 sm:px-6 py-4 sm:py-5 my-auto
       "
     >
-      {/* CONTAINER DA CAPA */}
-      <BookCover />
+      <BookBackcover />
     </div>
   );
 };
 
-export default Cover;
+export default Backcover;

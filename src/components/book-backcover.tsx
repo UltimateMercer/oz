@@ -4,7 +4,7 @@ import { getTranslation } from "@/lib/translations";
 import { cn } from "@/lib/utils";
 import { useEbookStore } from "@/store/useEbookStore";
 
-export const BookCover = ({ className = "" }: { className?: string }) => {
+export const BookBackcover = ({ className = "" }: { className?: string }) => {
   const language = useEbookStore((state) => state.language);
   const t = getTranslation(language);
   return (
@@ -16,25 +16,28 @@ export const BookCover = ({ className = "" }: { className?: string }) => {
     >
       <div
         className={cn(
-          "relative h-full bg-cover bg-center sepia-25 overflow-hidden",
+          "relative h-full bg-cover bg-center grayscale opacity-75 overflow-hidden",
           className,
         )}
         style={{
           backgroundImage: "url(book/oz-cover.png)",
         }}
       ></div>
-      <div className="absolute inset-0 px-12 py-8 flex flex-col justify-end z-10 bg-linear-to-b from-transparent from-35% to-black/90 text-[#eaeaea]">
-        <h1 className="text-5xl font-bold font-serif-display tracking-wider">
+      <div className="absolute inset-0 px-12 pt-12 pb-8 flex flex-col z-10 bg-[#252525]/50 text-[#eaeaea]">
+        <h1 className="text-3xl font-bold font-serif-display tracking-wider">
           {t.book.title}
         </h1>
         <div className="w-24 h-1 bg-[#eaeaea] my-4"></div>
         <h5 className="text-xl font-serif-display">{t.book.author}</h5>
+        <p className="text-lg font-serif-display mt-4">
+          Ebook: Julian Silva da Cunha
+        </p>
         <Image
           src="/images/ultimate-logo-dark.svg"
           alt={"Ultimate Mercer Logo"}
           width={56}
           height={56}
-          className="invert mx-auto"
+          className="invert mx-auto mt-auto"
         />
       </div>
     </div>

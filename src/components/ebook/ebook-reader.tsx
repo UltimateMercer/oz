@@ -22,6 +22,7 @@ import Chapter from "./chapter";
 import HelpGuide from "./help-guide";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { TextureOverlay } from "../ui/texture-overlay";
+import Backcover from "./backcover";
 
 // ============================================
 // VARIANTES DE ANIMAÇÃO MOTION
@@ -199,7 +200,7 @@ const EbookReader = () => {
     }
 
     if (currentPage === totalPages - 1) {
-      return <Cover />;
+      return <Backcover />;
     }
     const chapterIndex = currentPage - 2;
     console.log("Renderizando capítulo:", currentPage, "->", chapterIndex);

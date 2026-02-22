@@ -4,6 +4,12 @@ export const chapter3EN = {
   subtitle: "How Dorothy Saved the Scarecrow",
   content: [
     {
+      type: "image",
+      src: "/book/save-scarecrow.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
+    {
       type: "text",
       value: `When Dorothy was left alone she began to feel hungry. So she went to the cupboard and cut herself some bread, which she spread with butter. She gave some to Toto, and taking a pail from the shelf she carried it down to the little brook and filled it with clear, sparkling water. Toto ran over to the trees and began to bark at the birds sitting there. Dorothy went to get him, and saw such delicious fruit hanging from the branches that she gathered some of it, finding it just what she wanted to help out her breakfast.`,
     },
@@ -130,6 +136,12 @@ export const chapter3PT = {
   title: "Capítulo III",
   subtitle: "Como Dorothy Salvou o Espantalho",
   content: [
+    {
+      type: "image",
+      src: "/book/save-scarecrow.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
     {
       type: "text",
       value: `Quando Dorothy ficou sozinha, começou a sentir fome. Então foi até o armário e cortou um pedaço de pão, que espalhou com manteiga. Deu um pouco a Toto e, pegando um balde da prateleira, desceu até o riacho e o encheu com água clara e cristalina. Toto correu até as árvores e começou a latir para os pássaros que estavam pousados lá. Dorothy foi buscá-lo e viu frutas tão deliciosas penduradas nos galhos que colheu algumas, achando que eram exatamente o que precisava para complementar seu café da manhã.`,

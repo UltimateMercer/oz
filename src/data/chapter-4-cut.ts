@@ -4,6 +4,12 @@ export const chapter4EN = {
   subtitle: "The Road Through the Forest",
   content: [
     {
+      type: "image",
+      src: "/book/forest.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
+    {
       type: "text",
       value: `After a few hours the road began to be rough, and the walking grew so difficult that the Scarecrow often stumbled over the yellow bricks, which were here very uneven. Sometimes, indeed, they were broken or missing altogether, leaving holes that Toto jumped across and Dorothy walked around. As for the Scarecrow, having no brains, he walked straight ahead, and so stepped into the holes and fell at full length on the hard bricks. It never hurt him, however, and Dorothy would pick him up and set him upon his feet again, while he joined her in laughing merrily at his own mishap.`,
     },
@@ -94,6 +100,12 @@ export const chapter4PT = {
   title: "Capítulo IV",
   subtitle: "O Caminho Através da Floresta",
   content: [
+    {
+      type: "image",
+      src: "/book/forest.png",
+      alt: "Dorothy looking out at the gray Kansas prairie",
+      caption: "Nothing but gray prairie in every direction.",
+    },
     {
       type: "text",
       value: `Depois de algumas horas, a estrada começou a ficar acidentada, e caminhar tornou-se tão difícil que o Espantalho frequentemente tropeçava nos tijolos amarelos, que estavam muito desiguais por ali. Às vezes estavam quebrados ou faltavam completamente, deixando buracos sobre os quais Toto saltava e Dorothy contornava. Quanto ao Espantalho, sem cérebro, caminhava reto para a frente e acabava caindo nos buracos e tombando de comprido sobre os duros tijolos. Mas isso jamais lhe fazia mal, e Dorothy o levantava e o colocava de pé novamente, enquanto ele ria alegremente de suas próprias desventuras junto com ela.`,
