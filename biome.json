@@ -18,8 +18,15 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "a11y": {
+        "noStaticElementInteractions": "off"
+      },
       "suspicious": {
+        "noArrayIndexKey": "off",
         "noUnknownAtRules": "off"
+      },
+      "correctness": {
+        "noUnknownTypeSelector": "off"
       }
     },
     "domains": {
