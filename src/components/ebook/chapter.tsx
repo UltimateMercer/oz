@@ -185,12 +185,12 @@ const Chapter = ({ chapterIndex }: ChapterProps) => {
       className="
         flex flex-col 
         w-full 
-        px-4 md:px-16 sm:px-6 py-6 sm:py-8
-        border border-[#252525] dark:border-[#eaeaea] mt-8
+        px-5 md:px-16 sm:px-6 py-6 sm:py-8
+        md:border md:border-[#252525] md:dark:border-[#eaeaea] mt-8
         max-w-3xl mx-auto
         background-texture
         bg-[#fff9ea] dark:bg-[#252525]
-        shadow-xl mb-8
+        md:shadow-xl mb-8
       "
     >
       {/* CABEÇALHO */}

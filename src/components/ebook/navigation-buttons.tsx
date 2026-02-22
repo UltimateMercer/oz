@@ -37,7 +37,7 @@ const NavigationButtons = () => {
         fixed bottom-0 left-0 right-0 z-2
         flex items-center justify-between
         px-2.25 sm:px-4
-        bg-[#fff9ea]/50 dark:bg-[#252525]/80 backdrop-blur-md
+        bg-[#fff9ea] dark:bg-[#252525]
         border-t border-[#252525] dark:border-[#eaeaea]
       "
       style={{ height: `${layout.navigationButtonsHeight}px` }}

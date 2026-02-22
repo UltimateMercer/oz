@@ -23,9 +23,9 @@ const TableOfContents = () => {
       className="
         flex flex-col 
         w-full max-w-3xl mx-auto
-        border border-[#252525] dark:border-[#eaeaea] mt-8
+        md:border md:border-[#252525] md:dark:border-[#eaeaea] mt-8
         background-texture
-        bg-[#fbf0d9] dark:bg-[#252525]
+        bg-[#fff9ea] dark:bg-[#252525]
         px-4 sm:px-6 py-6 sm:py-8
       "
     >

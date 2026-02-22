@@ -6,8 +6,8 @@ export const chapter3EN = {
     {
       type: "image",
       src: "/book/save-scarecrow.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "Dorothy saving the Scarecrow",
+      caption: "Dorothy saving the Scarecrow.",
     },
     {
       type: "text",
@@ -139,8 +139,8 @@ export const chapter3PT = {
     {
       type: "image",
       src: "/book/save-scarecrow.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "Dorothy salvando o Espantalho",
+      caption: "Dorothy salvando o Espantalho.",
     },
     {
       type: "text",

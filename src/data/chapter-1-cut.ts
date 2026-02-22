@@ -6,8 +6,8 @@ export const chapter1EN = {
     {
       type: "image",
       src: "/book/ciclone.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "Cyclone arriving at Dorothy's house",
+      caption: "Cyclone arriving at Dorothy's house",
     },
     {
       type: "text",
@@ -89,8 +89,8 @@ export const chapter1PT = {
     {
       type: "image",
       src: "/book/ciclone.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "Ciclone chegando à casa de Dorothy",
+      caption: "Ciclone chegando à casa de Dorothy",
     },
     {
       type: "text",

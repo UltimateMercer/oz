@@ -110,7 +110,7 @@ const Navbar = () => {
           fixed top-0 left-0 right-0 z-50
           flex items-center justify-between
           px-2 sm:px-4
-          bg-[#fff9ea]/50 dark:bg-[#252525] backdrop-blur-md
+          bg-[#fff9ea] dark:bg-[#252525]
           border-b border-[#252525] dark:border-[#eaeaea]
           
         "
@@ -198,7 +198,7 @@ const Navbar = () => {
                           text-xs 
                           text-muted-foreground
                           font-medium
-                          min-w-[2.5rem]
+                          min-w-10
                         `}
                       >
                         {t.ui.chapter.slice(0, 3)} {chapter.number}
@@ -260,18 +260,6 @@ const Navbar = () => {
           <Tooltip>
             <TooltipTrigger asChild>
               <AnimatedThemeToggler />
-              {/* <Button
-                variant="ghost"
-                size="sm"
-                onClick={toggleTheme}
-                className="rounded gap-1 sm:gap-2 px-2 sm:px-3 hover:bg-[#252525] hover:text-[#eaeaea] hover:dark:bg-[#eaeaea] hover:dark:text-[#252525] cursor-pointer"
-              >
-                {theme === "light" ? (
-                  <Moon className="w-4 h-4" />
-                ) : (
-                  <Sun className="w-4 h-4" />
-                )}
-              </Button> */}
             </TooltipTrigger>
             <TooltipContent>
               <p>{t.ui.theme}</p>

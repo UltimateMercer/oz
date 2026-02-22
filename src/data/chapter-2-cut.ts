@@ -6,8 +6,8 @@ export const chapter2EN = {
     {
       type: "image",
       src: "/book/toto-oz.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "First sight of Oz",
+      caption: "First sight of Oz.",
     },
     {
       type: "text",
@@ -124,8 +124,8 @@ export const chapter2PT = {
     {
       type: "image",
       src: "/book/toto-oz.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "A primeira visão de Oz",
+      caption: "A primeira visão de Oz",
     },
     {
       type: "text",

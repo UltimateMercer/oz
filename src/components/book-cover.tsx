@@ -23,7 +23,7 @@ export const BookCover = ({ className = "" }: { className?: string }) => {
           backgroundImage: "url(book/oz-cover.png)",
         }}
       ></div>
-      <div className="absolute inset-0 px-12 py-8 flex flex-col justify-end z-10 bg-linear-to-b from-transparent from-35% to-black/90 text-[#eaeaea]">
+      <div className="absolute inset-0 md:px-12 px-6 py-8 flex flex-col justify-end z-10 bg-linear-to-b from-transparent from-35% to-black/90 text-[#eaeaea]">
         <h1 className="text-5xl font-bold font-serif-display tracking-wider">
           {t.book.title}
         </h1>

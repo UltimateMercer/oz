@@ -6,8 +6,8 @@ export const chapter4EN = {
     {
       type: "image",
       src: "/book/forest.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "The road through the forest",
+      caption: "The road through the forest.",
     },
     {
       type: "text",
@@ -103,8 +103,8 @@ export const chapter4PT = {
     {
       type: "image",
       src: "/book/forest.png",
-      alt: "Dorothy looking out at the gray Kansas prairie",
-      caption: "Nothing but gray prairie in every direction.",
+      alt: "O caminho através da floresta",
+      caption: "Caminho através da floresta escura.",
     },
     {
       type: "text",
