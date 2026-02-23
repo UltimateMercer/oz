@@ -192,6 +192,7 @@ const Chapter = ({ chapterIndex }: ChapterProps) => {
         bg-[#fff9ea] dark:bg-[#252525]
         md:shadow-xl mb-8
       "
+      data-scrollable="true"
     >
       {/* CABEÇALHO */}
       <header className="mb-6 sm:mb-8 text-center">

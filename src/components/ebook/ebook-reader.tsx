@@ -96,6 +96,17 @@ const EbookReader = () => {
   // ---- Referência para o Container ----
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // ---- Scroll para o topo ao mudar de página ----
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (containerRef.current) {
+        containerRef.current.scrollTop = 0;
+      }
+    }, 50);
+    return () => clearTimeout(timer);
+  }, [currentPage]);
+
   // ---- Atualizar Total de Páginas ----
   const totalPagesCalculated = 2 + t.chapters.length + 1;
   if (totalPages !== totalPagesCalculated) {
@@ -232,7 +243,6 @@ const EbookReader = () => {
       <main
         ref={containerRef}
         {...bind()}
-        data-scrollable="true"
         className={`
           w-full
           overflow-y-auto

@@ -184,6 +184,7 @@ const Navbar = () => {
                       rounded
                       text-left
                       transition-colors duration-200
+                      cursor-pointer
                       ${
                         currentPage === index + 2
                           ? "bg-primary/10 text-primary"
