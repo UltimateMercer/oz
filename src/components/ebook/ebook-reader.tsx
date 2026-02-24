@@ -107,6 +107,16 @@ const EbookReader = () => {
     return () => clearTimeout(timer);
   }, [currentPage]);
 
+  // ---- Navegacao por teclado ----
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") nextPage();
+      if (e.key === "ArrowLeft") prevPage();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [nextPage, prevPage]);
+
   // ---- Atualizar Total de Páginas ----
   const totalPagesCalculated = 2 + t.chapters.length + 1;
   if (totalPages !== totalPagesCalculated) {

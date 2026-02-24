@@ -176,6 +176,13 @@
     @apply indent-8;
   }
 
+  .prose :where(p + p) {
+    margin-top: 0;
+  }
+  .prose :where(p:not(:last-child)) {
+    margin-bottom: 0;
+  }
+
   .hide-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -572,4 +579,10 @@
       radial-gradient(ellipse at center, black 50%, transparent 100%);
     mask-composite: intersect;
   }
+}
+.prose p + p {
+  margin-top: 0;
+}
+.prose p:not(:last-child) {
+  margin-bottom: 0;
 }
