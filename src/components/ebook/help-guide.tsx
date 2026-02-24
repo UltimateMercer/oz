@@ -57,7 +57,7 @@ const guideTextsPT = {
     "Este guia rápido vai te mostrar como usar o leitor. Vamos lá!",
   guideNavigationTitle: "Como Navegar 👆",
   guideNavigationText:
-    "Arraste a tela para os lados ou use os botões de seta para mudar de página.",
+    "Arraste a tela para os lados ou use os botões de anterior ou próximo no rodapé.",
   guideTocTitle: "Sumário 📋",
   guideTocText:
     'Clique em "Sumário" para ver todos os capítulos e ir direto para o que quiser!',
@@ -86,7 +86,7 @@ const guideTextsEN = {
     "This quick guide will show you how to use the reader. Let's go!",
   guideNavigationTitle: "How to Navigate 👆",
   guideNavigationText:
-    "Swipe the screen left or right, or use the arrow buttons to change pages.",
+    "Swipe the screen left or right, or use the buttons previous or next at the bottom.",
   guideTocTitle: "Table of Contents 📋",
   guideTocText:
     'Click "Contents" to see all chapters and jump to any one you want!',
